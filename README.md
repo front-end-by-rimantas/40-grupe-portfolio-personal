@@ -1,10 +1,10 @@
-# Coming Soon
+# Personal Portfolio
 
 _40 group website project_
 
 Site published at: [GitHub pages](https://front-end-by-rimantas.github.io/40-grupe-portfolio-personal/)
 
-Design: [Coming Soon](https://preview.colorlib.com/theme/personal/)
+Design: [Personal Portfolio](https://preview.colorlib.com/theme/personal/)
 
 ## Project features
 
