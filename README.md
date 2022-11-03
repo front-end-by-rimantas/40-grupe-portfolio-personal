@@ -72,9 +72,9 @@ Božena: [Github](https://github.com/bozenakr)
 
 Paulius: [Github](https://github.com/Paulius7778hhh)
 
-Edgaras: [Gitgub](https://github.com/JustEdga)
+Edgaras: [Github](https://github.com/JustEdga)
 
-Kristupas: [Gitgub](https://github.com/Kplukas)
+Kristupas: [Github](https://github.com/Kplukas)
 
 ## ⚠️ License
 
