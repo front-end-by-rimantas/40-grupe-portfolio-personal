@@ -66,7 +66,11 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
+Aras: [Github](https://github.com/Dirigentas)
+
 Božena: [Github](https://github.com/bozenakr)
+
+Edgaras: [Gitgub](https://github.com/JustEdga)
 
 ## ⚠️ License
 
