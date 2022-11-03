@@ -68,6 +68,8 @@ There is no tests for this project.
 
 Božena: [Github](https://github.com/bozenakr)
 
+Paulius: https://github.com/Paulius7778hhh
+
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
