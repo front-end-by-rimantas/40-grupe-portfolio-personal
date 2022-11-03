@@ -70,6 +70,8 @@ Aras: [Github](https://github.com/Dirigentas)
 
 Božena: [Github](https://github.com/bozenakr)
 
+Edgaras: [Gitgub](https://github.com/JustEdga)
+
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
