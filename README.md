@@ -67,7 +67,7 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Božena: [Github](https://github.com/bozenakr)
-Paulius: https://github.com/Paulius7778hhh
+Paulius: [Github](https://github.com/Paulius7778hhh)
 
 ## ⚠️ License
 
