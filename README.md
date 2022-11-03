@@ -74,6 +74,8 @@ Paulius: [Github](https://github.com/Paulius7778hhh)
 
 Edgaras: [Gitgub](https://github.com/JustEdga)
 
+Kristupas: [Gitgub](https://github.com/Kplukas)
+
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
