@@ -64,17 +64,17 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 There is no tests for this project.
 
-## 🎅 Authors
+## 😃 Authors
 
 Aras: [Github](https://github.com/Dirigentas)
 
 Božena: [Github](https://github.com/bozenakr)
 
-Paulius: [Github](https://github.com/Paulius7778hhh)
-
 Edgaras: [Github](https://github.com/JustEdga)
 
 Kristupas: [Github](https://github.com/Kplukas)
+
+Paulius: [Github](https://github.com/Paulius7778hhh)
 
 ## ⚠️ License
 
