@@ -4,10 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "dev": "dead-server --port=4006 --host=localhost",
-      "test": "jest --passWithNoTests",
-      "test:all": "jest --watchAll --passWithNoTests --coverage",
-      "test:coverage": "jest --coverage"
+        "dev": "dead-server --port=4006 --host=localhost",
+        "test": "jest --passWithNoTests",
+        "test:all": "jest --watchAll --passWithNoTests --coverage",
+        "test:coverage": "jest --coverage"
     },
     "keywords": [],
     "author": "",
