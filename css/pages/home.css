@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 /* 3rd-party */
+@import '../3rd-party/fontawesome.min.css';
 /* components */
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
@@ -18,11 +19,20 @@
 /* ABOUT ME end */
 
 /* MY OFFERED SERVICES start */
-.services-title-holder {
+.title {
+    font-size: 36px;
+}
+.description {
+    margin: 25px 0;
+}
+.services-container {
     text-align: center;
 }
-.title {
-    font-size: 32px;
+.service-btn {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
 }
 /* MY OFFERED SERVICES end */
 
