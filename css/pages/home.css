@@ -1,15 +1,24 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 /* 3rd-party */
 /* components */
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
-    
+
 /* HEADER-start */
 /* HEADER-end  */
 
 /* THIS IS ME start */
+.name {
+    font-size: 60px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #222;
+}
+
 /* THIS IS ME end */
 
 /* ABOUT ME start  */
@@ -30,7 +39,7 @@
 /* CHOOSE YOUR PLAN start */
 /* CHOOSE YOUR PLAN end */
 
-/* BLOG POSTS start */ 
+/* BLOG POSTS start */
 /* BLOG POSTS end */
 
 /* BLUE ZONE LOGOS start  */
