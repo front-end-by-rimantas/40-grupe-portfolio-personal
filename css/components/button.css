@@ -1,12 +1,7 @@
 .button {
     color: #fff;
     background-color: var(--bluegradient1);
-    background: linear-gradient(
-        90deg,
-        var(--bluegradient1),
-        var(--bluegradient2),
-        var(--bluegradient3)
-    );
+    background: linear-gradient(90deg, var(--bluegradient1), var(--bluegradient2), var(--bluegradient3));
     text-transform: uppercase;
     display: inline;
     font-size: 14px;
