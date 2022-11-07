@@ -1,0 +1,12 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
