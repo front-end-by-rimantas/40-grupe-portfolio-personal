@@ -10,12 +10,12 @@
 
 /* HEADER-start */
 header.container {
-    background-color: aqua;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
+    margin-left: calc((100% - 85%) / 2);
 }
 
 .logo {
@@ -23,19 +23,20 @@ header.container {
     object-position: center;
 }
 
-.header-menu {
-    font-size: 12px;
-}
-
 .header-menu > .link {
-    color: #000;
     text-decoration: none;
+    font-size: 12px;
+    color: black;
     text-transform: uppercase;
     margin-left: 20px;
 }
 
- .header-menu:first-child {
-    color: --bluegradient1;
+ .header-menu> :first-child {
+    color: var(--bluegradient1);
+}
+
+.header-menu > .link:hover {
+    color: var(--bluegradient1);
 
 }
 
