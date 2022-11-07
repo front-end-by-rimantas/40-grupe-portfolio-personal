@@ -18,6 +18,12 @@
 /* ABOUT ME end */
 
 /* MY OFFERED SERVICES start */
+.services-title-holder {
+    text-align: center;
+}
+.title {
+    font-size: 32px;
+}
 /* MY OFFERED SERVICES end */
 
 /* BLUE ZONE STATISTICS start */
