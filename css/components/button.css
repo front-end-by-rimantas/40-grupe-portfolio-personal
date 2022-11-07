@@ -4,7 +4,8 @@
     background: linear-gradient(90deg, var(--bluegradient1), var(--bluegradient2), var(--bluegradient3));
     text-transform: uppercase;
     display: inline;
-    font-size: 12px;
-    padding: 1em 20px;
+    font-size: 14px;
+    padding: 1em 25px;
     line-height: 3em;
+    text-decoration: none;
 }
