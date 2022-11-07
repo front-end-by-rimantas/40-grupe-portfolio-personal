@@ -2,9 +2,9 @@
     margin: 300px 110px;
     color: #fff;
     background-color: #8292FF;
-    background: linear-gradient(90deg, #8292FF, #71A8FD, #62BDFC);
+    background: linear-gradient(90deg, var(--bluegradient1), var(--bluegradient2), var(--bluegradient3));
     text-transform: uppercase;
-    /* width: 150px; */
+    width: 150px;
     height: 42px;
     font-size: 12px;
 }
