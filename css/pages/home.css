@@ -43,6 +43,13 @@ header.container {
 /* HEADER-end  */
 
 /* THIS IS ME start */
+.name {
+    font-size: 60px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #222;
+}
+
 /* THIS IS ME end */
 
 /* ABOUT ME start  */
