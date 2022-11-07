@@ -7,6 +7,36 @@
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
     
 /* HEADER-start */
+header.container {
+    background-color: aqua;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    height: 30px;
+    object-position: center;
+}
+
+.header-menu {
+    font-size: 12px;
+}
+
+.header-menu > .link {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+ .header-menu:first-child {
+    color: violet;
+
+}
+
 /* HEADER-end  */
 
 /* THIS IS ME start */
