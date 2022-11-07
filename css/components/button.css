@@ -1,10 +1,10 @@
 .button {
-    margin: 300px 110px;
     color: #fff;
-    background-color: #8292FF;
+    background-color: var(--bluegradient1);
     background: linear-gradient(90deg, var(--bluegradient1), var(--bluegradient2), var(--bluegradient3));
     text-transform: uppercase;
-    width: 150px;
-    height: 42px;
+    display: inline;
     font-size: 12px;
+    padding: 1em 20px;
+    line-height: 3em;
 }
