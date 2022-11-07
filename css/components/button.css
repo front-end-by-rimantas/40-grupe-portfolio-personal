@@ -1,0 +1,10 @@
+.button {
+    margin: 500px 110px;
+    color: #fff;
+    background-color: #8292FF;
+    background: linear-gradient(90deg, #8292FF, #71A8FD, #62BDFC);
+    text-transform: uppercase;
+    width: 200px;
+    height: 42px;
+    font-size: 1em;
+}
