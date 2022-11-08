@@ -1,7 +1,7 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 /* 3rd-party */
 @import '../3rd-party/fontawesome.min.css';
@@ -13,6 +13,13 @@
 /* HEADER-end  */
 
 /* THIS IS ME start */
+.name {
+    font-size: 60px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #222;
+}
+
 /* THIS IS ME end */
 
 /* ABOUT ME start  */

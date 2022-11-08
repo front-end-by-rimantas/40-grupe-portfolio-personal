@@ -1,3 +1,14 @@
+:root {
+    --grey: #f9f9ff;
+    --bluegradient1: #8292FF;
+    --bluegradient2: #71A8FD;
+    --bluegradient3: #62BDFC;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin: 0;
