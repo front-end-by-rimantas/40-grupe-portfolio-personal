@@ -4,7 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 /* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/blog.css';
+@import '../components/button.css';
+@import '../components/choose-your-plan.css';
+@import '../components/feedback-slider.css';
+@import '../components/footer-form.css';
+@import '../components/footer-socials.css';
+@import '../components/our-latest.css';
+@import '../components/out-latest-full-img.css';
+@import '../components/statistics.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -32,13 +42,12 @@ header.container {
     margin-left: 20px;
 }
 
- .header-menu> :first-child {
+.header-menu > :first-child {
     color: var(--bluegradient1);
 }
 
 .header-menu > .link:hover {
     color: var(--bluegradient1);
-
 }
 
 /* HEADER-end  */
