@@ -32,13 +32,12 @@ header.container {
     margin-left: 20px;
 }
 
- .header-menu> :first-child {
+.header-menu > :first-child {
     color: var(--bluegradient1);
 }
 
 .header-menu > .link:hover {
     color: var(--bluegradient1);
-
 }
 
 /* HEADER-end  */
@@ -69,6 +68,7 @@ header.container {
 /* CLIENTS FEEDBACK end */
 
 /* CHOOSE YOUR PLAN start */
+
 /* CHOOSE YOUR PLAN end */
 
 /* BLOG POSTS start */
