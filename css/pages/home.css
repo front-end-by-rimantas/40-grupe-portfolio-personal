@@ -9,6 +9,38 @@
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
 /* HEADER-start */
+header.container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-left: calc((100% - 85%) / 2);
+}
+
+.logo {
+    height: 30px;
+    object-position: center;
+}
+
+.header-menu > .link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+ .header-menu> :first-child {
+    color: var(--bluegradient1);
+}
+
+.header-menu > .link:hover {
+    color: var(--bluegradient1);
+
+}
+
 /* HEADER-end  */
 
 /* THIS IS ME start */
