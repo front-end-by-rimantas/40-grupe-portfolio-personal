@@ -28,12 +28,18 @@
 /* MY OFFERED SERVICES start */
 .title {
     font-size: 36px;
+    font-weight: 600;
 }
 .description {
     margin: 25px 0;
 }
 .services-container {
     text-align: center;
+    margin-top: 50px;
+}
+.service-icon {
+    font-size: 32px;
+    padding: 20px 0;
 }
 .service-btn {
     text-decoration: none;
