@@ -3,6 +3,7 @@
     --bluegradient1: #8292FF;
     --bluegradient2: #71A8FD;
     --bluegradient3: #62BDFC;
+    --footercolor: #04091E;
 }
 
 html {
@@ -28,4 +29,7 @@ body {
 .description {
     font-size: 14px;
     color: #777;
+}
+footer {
+    background-color: var(--footercolor);
 }
