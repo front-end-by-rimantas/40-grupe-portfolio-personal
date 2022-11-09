@@ -4,8 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 /* 3rd-party */
-@import '../3rd-party/fontawesome.min.css';
+@import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/blog.css';
+@import '../components/button.css';
+@import '../components/choose-your-plan.css';
+@import '../components/feedback-slider.css';
+@import '../components/footer-form.css';
+@import '../components/footer-socials.css';
+@import '../components/our-latest.css';
+@import '../components/out-latest-full-img.css';
+@import '../components/statistics.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -57,34 +66,6 @@ header.container {
 /* ABOUT ME end */
 
 /* MY OFFERED SERVICES start */
-.title {
-    font-size: 36px;
-    font-weight: 600;
-}
-.description {
-    margin: 25px 0;
-}
-.services-container {
-    text-align: center;
-    margin-top: 50px;
-}
-.service-icon {
-    font-size: 32px;
-    padding: 20px 0;
-}
-.service-btn {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    color: #222;
-}
-
-.service-title:hover {
-    background-image: linear-gradient(to right, #8490ff, #62bdfc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 /* MY OFFERED SERVICES end */
 
 /* BLUE ZONE STATISTICS start */
@@ -106,4 +87,4 @@ header.container {
 /* BLUE ZONE LOGOS end */
 
 /* FOOTER start */
-/* FOOTER end  */ ;
+/* FOOTER end  */
