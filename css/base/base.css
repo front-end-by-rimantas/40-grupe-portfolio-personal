@@ -40,4 +40,6 @@ footer p > a {
 }
 footer > .row .heading {
     text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
 }
