@@ -66,6 +66,31 @@ header.container {
 /* ABOUT ME end */
 
 /* MY OFFERED SERVICES start */
+.services-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.service-btn {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+}
+.service-icon {
+    font-size: 30px;
+    padding: 25px 0;
+}
+.service-title {
+    margin: 25px 0;
+}
+.service-title:hover {
+    background-image: linear-gradient(to right, #8490ff, #62bdfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* MY OFFERED SERVICES end */
 
 /* BLUE ZONE STATISTICS start */
