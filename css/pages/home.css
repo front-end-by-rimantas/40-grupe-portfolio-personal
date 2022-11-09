@@ -68,7 +68,14 @@ header.container {
 /* CLIENTS FEEDBACK end */
 
 /* CHOOSE YOUR PLAN start */
-
+.choose {
+    background-color: var(--grey);
+    text-align: center;
+    margin: 10px;
+}
+hr {
+    width: var(--col3);
+}
 /* CHOOSE YOUR PLAN end */
 
 /* BLOG POSTS start */
