@@ -1,0 +1,33 @@
+form {
+background-color: #fff;
+display: flex;
+height: 3em;
+}
+
+form > input {
+font-size: 14px;
+font-weight: 100;
+border: none;
+padding: 20px;
+outline: none;
+}
+
+input:focus {
+border: none;
+}
+
+input:focus::placeholder {
+opacity: 0;
+}
+
+form > button {
+background-color: var(--bluegradient1);
+color: #fff;
+border: none;
+width: 3.7em;
+cursor: pointer;
+}
+
+.fa {
+font-size: 14px;
+}
