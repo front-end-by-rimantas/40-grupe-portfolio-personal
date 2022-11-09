@@ -42,4 +42,8 @@ footer > .row .heading {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 18px;
+    padding-bottom: 20px;
+}
+footer > .row {
+    padding: 70px 0;
 }
