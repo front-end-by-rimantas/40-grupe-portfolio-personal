@@ -31,6 +31,8 @@ body {
     color: #777;
     /* line-height: 2em; */
 }
+
+/* FOOTER start */
 footer {
     background-color: var(--footercolor);
     color: #fff;
@@ -51,3 +53,4 @@ footer > .row .heading {
 footer > .row {
     padding: 70px 0;
 }
+/* FOOTER end  */
