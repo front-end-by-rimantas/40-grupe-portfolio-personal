@@ -33,13 +33,12 @@ header.container {
     margin-left: 20px;
 }
 
- .header-menu> :first-child {
+.header-menu > :first-child {
     color: var(--bluegradient1);
 }
 
 .header-menu > .link:hover {
     color: var(--bluegradient1);
-
 }
 
 /* HEADER-end  */
@@ -79,6 +78,13 @@ header.container {
     font-size: 18px;
     color: #222;
 }
+
+.service-title:hover {
+    background-image: linear-gradient(to right, #8490ff, #62bdfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* MY OFFERED SERVICES end */
 
 /* BLUE ZONE STATISTICS start */
@@ -100,4 +106,4 @@ header.container {
 /* BLUE ZONE LOGOS end */
 
 /* FOOTER start */
-/* FOOTER end  */
+/* FOOTER end  */ ;
