@@ -1,0 +1,31 @@
+:root {
+    --grey: #f9f9ff;
+    --bluegradient1: #8292FF;
+    --bluegradient2: #71A8FD;
+    --bluegradient3: #62BDFC;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 30px;
+    color: #222;
+}
+.description {
+    font-size: 14px;
+    color: #777;
+}
