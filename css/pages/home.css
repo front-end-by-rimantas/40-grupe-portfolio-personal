@@ -71,33 +71,38 @@ header.container {
 .choose {
     font-size: 14px;
     color: #777;
-    background-color: red;
+    background-color: var(--grey);
     text-align: center;
-    margin: var(--gap);
 }
 .line {
-    border: blue solid 0.5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: blue;
-
+    border-bottom: #eeeeee solid 0.5px;
+    margin: 20px 10px 20px 10px;
 }
 .number-border {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    width: 15em;
-    border: greenyellow solid 3em;
+    width: 10em;
+    border: #e2e5ff solid 2em;
     border-radius: 9999px;
+    background-color: #edeeff;
 }
 .number {
-    font-size: 50px;
+    font-size: 2.4em;
     color: black;
     margin: 0.5em;
+    background-color: #edeeff;
 }
-
+.price {
+    font-size: xx-large;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.h3mar {
+    color: black;
+    margin-bottom: 5px;
+}
 /* CHOOSE YOUR PLAN end */
 
 /* BLOG POSTS start */
