@@ -29,6 +29,7 @@ body {
 .description {
     font-size: 14px;
     color: #777;
+    /* line-height: 2em; */
 }
 footer {
     background-color: var(--footercolor);
@@ -37,6 +38,9 @@ footer {
 footer p > a {
     text-decoration: none;
     color: var(--bluegradient1); 
+}
+footer p > span {
+    padding-top: 3px;
 }
 footer > .row .heading {
     text-transform: capitalize;
