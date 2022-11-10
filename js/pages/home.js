@@ -4,6 +4,16 @@
 (async () => {
 
     /* HEADER-start */
+    try {
+        const response = await fetch('./data/header-menu.json');
+        const data = await response.json();
+        const hobbiesResponse = renderMenu('hobbies', data);
+        if (hobbiesResponse[0]) {
+            console.error(hobbiesResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     /* HEADER-end  */
 
     /* THIS IS ME start */
