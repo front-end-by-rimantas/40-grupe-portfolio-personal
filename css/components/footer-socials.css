@@ -1,0 +1,15 @@
+.socials {
+    display: flex;
+    align-items: center;
+}
+.socials-icon {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.socials-icon:first-child {
+    margin-left: 0px;
+}
+.socials-icon:hover {
+    color: var(--bluegradient1);
+}
