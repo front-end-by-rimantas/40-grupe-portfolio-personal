@@ -1,20 +1,18 @@
 const counters = document.querySelectorAll('.counter');
 
-window.addEventListener('scroll', () => {
-    counters.forEach((counter) => {
-        counter.innerText = '0';
+counters.forEach((counter) => {
+    counter.innerText = '0';
 
-        const updateCounter = () => {
-            const target = +counter.getAttribute('data-val');
-            const c = +counter.innerText;
+    const updateCounter = () => {
+        const target = +counter.getAttribute('data-val');
+        const c = +counter.innerText;
 
-            const increment = target / 250;
+        const increment = target / 400;
 
-            if (c < target) {
-                counter.innerText = `${Math.ceil(c + increment)}`;
-                setTimeout(updateCounter, 1);
-            }
-        };
-        updateCounter();
-    });
+        if (c < target) {
+            counter.innerText = `${Math.ceil(c + increment)}`;
+            setTimeout(updateCounter, 1);
+        }
+    };
+    updateCounter();
 });
