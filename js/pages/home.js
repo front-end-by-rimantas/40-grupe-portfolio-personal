@@ -1,6 +1,6 @@
 // IMPORTS
 import renderServices from "../components/services.js";
-
+import "../components/stats.js"
 
 // EXECUTION
 (async () => {
