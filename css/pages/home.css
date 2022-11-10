@@ -100,6 +100,34 @@ header.container {
 /* FEATURED PROJECTS end */
 
 /* CLIENTS FEEDBACK start */
+.feedback-container {
+    background-color: #f9f9;
+}
+.title-container {
+    text-align: center;
+    padding: 25px 0 60px;
+}
+.client-container {
+    background-color: #fff;
+    padding: 25px 30px 15px;
+    display: flex;
+    gap: 30px;
+}
+.client-text {
+    padding-bottom: 15px;
+}
+.client-img > img {
+    width: 35px;
+    display: flex;
+}
+.comment {
+    padding-bottom: 15px;
+}
+.client-name {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 /* CLIENTS FEEDBACK end */
 
 /* CHOOSE YOUR PLAN start */
