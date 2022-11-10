@@ -14,3 +14,13 @@
     color: #fff;
     font-size: 14px;
 }
+@media (max-width: 992px) {
+    .stats-column {
+        padding: 25px 0;
+    }
+}
+@media (max-width: 768px) {
+    .stats-column {
+        padding: 10px 0;
+    }
+}
