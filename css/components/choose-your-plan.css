@@ -1,6 +1,22 @@
-.buy {}
+.buy {
 
-.buy:hover,.buy:hover .number-border,.buy:hover .number {
+}
+.buybtn > {
+    background-color: #edeeff;
+}
+.buybtn:hover {
+    text-transform: uppercase; 
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    content: "buy now!";
+}
+.buy:hover,.buy:hover .number-border,.buy:hover .number, .buy:hover .h3mar,.buy:hover .buybtn:hover {
     background: linear-gradient(var(--bluegradient1),var(--bluegradient2),var(--bluegradient3));
+    color: white; 
+    animation-duration: 5s;
 }
 
