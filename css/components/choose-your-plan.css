@@ -1,0 +1,6 @@
+.buy {}
+
+.buy:hover,.buy:hover .number-border,.buy:hover .number {
+    background: linear-gradient(var(--bluegradient1),var(--bluegradient2),var(--bluegradient3));
+}
+
