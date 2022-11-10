@@ -1,0 +1,35 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    height: 2.9em;
+    margin-top: 12px;
+}
+
+form > input {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    border: none;
+    padding: 20px;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+form > button {
+    background-color: var(--bluegradient1);
+    color: #fff;
+    border: none;
+    width: 4.2em;
+    cursor: pointer;
+}
+
+form > button > span {
+    padding-top: 1px;
+}
