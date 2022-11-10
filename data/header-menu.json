@@ -1,10 +1,10 @@
 [
-    "home",
-    "about",
-    "services",
-    "portfolio",
-    "pricing",
-    "blog",
-    "pages",
-    "contact"
+    {"title" : "home"},
+    {"title" : "about"},
+    {"title" : "services"},
+    {"title" : "portfolio"},
+    {"title" : "pricing"},
+    {"title" : "blog"},
+    {"title" : "pages"},
+    {"title" : "contact"}
 ]
