@@ -103,6 +103,41 @@ header.container {
 /* CLIENTS FEEDBACK end */
 
 /* CHOOSE YOUR PLAN start */
+.choose {
+    font-size: 14px;
+    color: #777;
+    background-color: var(--grey);
+    text-align: center;
+}
+.line {
+    border-bottom: #eeeeee solid 0.5px;
+    margin: 20px 10px 20px 10px;
+}
+.number-border {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 10em;
+    border: #e2e5ff solid 2em;
+    border-radius: 9999px;
+    background-color: #edeeff;
+}
+.number {
+    font-size: 2.4em;
+    color: black;
+    margin: 0.5em;
+    background-color: #edeeff;
+}
+.price {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.h3mar {
+    color: black;
+    margin-bottom: 5px;
+}
 /* CHOOSE YOUR PLAN end */
 
 /* BLOG POSTS start */
