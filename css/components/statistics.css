@@ -1,0 +1,26 @@
+.stats {
+    background: linear-gradient(90deg, var(--bluegradient1), var(--bluegradient2), var(--bluegradient3));
+}
+.stats-column {
+    padding: 50px 0;
+    text-align: center;
+}
+.counter {
+    color:#fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+.countername {
+    color: #fff;
+    font-size: 14px;
+}
+@media (max-width: 992px) {
+    .stats-column {
+        padding: 25px 0;
+    }
+}
+@media (max-width: 768px) {
+    .stats-column {
+        padding: 10px 0;
+    }
+}
