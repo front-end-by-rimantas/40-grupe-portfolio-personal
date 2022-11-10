@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
 }
-.icon {
+.socials-icon {
     text-decoration: none;
     color: #fff;
     margin: 10px;
 }
-.icon:first-child {
+.socials-icon:first-child {
     margin-left: 0px;
 }
-.icon:hover {
+.socials-icon:hover {
     color: var(--bluegradient1);
 }
