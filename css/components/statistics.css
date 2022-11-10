@@ -1,0 +1,6 @@
+.stats {
+    background: linear-gradient(90deg, var(--bluegradient1), var(--bluegradient2), var(--bluegradient3));
+}
+.stats-column {
+    padding: 120px 60px;
+}
