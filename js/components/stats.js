@@ -1,6 +1,6 @@
 const counters = document.querySelectorAll('.counter');
 
-window.addEventListener('', () => {
+window.addEventListener('scroll', () => {
     counters.forEach((counter) => {
         counter.innerText = '0';
 
