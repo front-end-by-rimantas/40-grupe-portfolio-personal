@@ -1,8 +1,7 @@
 const DOM = document.getElementById('hidden-menu');
-console.log(DOM);
 
 DOM.addEventListener('click', () => {
-    if (DOM.innerHTML.includes("home") === true) {
+    if (DOM.innerHTML.includes("home")) {
         DOM.innerHTML = '';
     } else {
         DOM.innerHTML = `<div class = "box">
