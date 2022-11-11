@@ -15,7 +15,6 @@ function start() {
         }
     }
 }
-const matoma = document.querySelectorAll('.matoma');
 
 counters.forEach((counter) => {
     counter.innerText = '0';
@@ -31,7 +30,5 @@ counters.forEach((counter) => {
             setTimeout(updateCounter, 1);
         }
     };
-    if (matoma.values) {
-        updateCounter();
-    }
+    updateCounter();
 });
