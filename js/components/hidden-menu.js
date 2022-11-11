@@ -7,14 +7,14 @@ DOM.addEventListener('click', () => {
     } else {
         DOM.innerHTML = `<div class = "box">
         <div class = "menu-box">
-        <div class = "onemenu">home</div>
-        <div class = "onemenu">about</div>
-        <div class = "onemenu">services</div>
-        <div class = "onemenu">portfolio</div>
-        <div class = "onemenu">pricing</div>
-        <div class = "onemenu">blog</div>
-        <div class = "onemenu">pages</div>
-        <div class = "onemenu">contact</div>
+        <a class="link onemenu" href = "#">home</a>
+        <a class="link onemenu" href = "#">about</a>
+        <a class="link onemenu" href = "#">services</a>
+        <a class="link onemenu" href = "#">portfolio</a>
+        <a class="link onemenu" href = "#">pricing</a>
+        <a class="link onemenu" href = "#">blog</a>
+        <a class="link onemenu" href = "#">pages</a>
+        <a class="link onemenu" href = "#">contact</a>
         </div>
         </div>`
     }
