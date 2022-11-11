@@ -76,7 +76,7 @@ header.container {
     height: auto;
 }
 
-.about-me-container h1 {
+.about-me-container .title {
     padding: 25px 0;
 }
 
