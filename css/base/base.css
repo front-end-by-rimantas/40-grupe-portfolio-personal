@@ -3,6 +3,7 @@
     --bluegradient1: #8292FF;
     --bluegradient2: #71A8FD;
     --bluegradient3: #62BDFC;
+    --footercolor: #04091E;
 }
 
 html {
@@ -28,4 +29,28 @@ body {
 .description {
     font-size: 14px;
     color: #777;
+    /* line-height: 2em; */
 }
+
+/* FOOTER start */
+footer {
+    background-color: var(--footercolor);
+    color: #fff;
+}
+footer p > a {
+    text-decoration: none;
+    color: var(--bluegradient1); 
+}
+footer p > span {
+    padding-top: 3px;
+}
+footer > .row .heading {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+footer > .row {
+    padding: 70px 0;
+}
+/* FOOTER end  */
