@@ -1,8 +1,10 @@
 const DOM = document.getElementById('hidden-menu');
+const bodyDOM = document.getElementsByTagName('body')
 
 DOM.addEventListener('click', () => {
     if (DOM.innerHTML.includes("home")) {
         DOM.innerHTML = '';
+        bodyDOM[0].classList.remove('invisible-scrollbar');
     } else {
         DOM.innerHTML = `<div class = "box">
         <div class = "menu-box">
@@ -15,6 +17,7 @@ DOM.addEventListener('click', () => {
         <a class="link onemenu" href = "#">pages</a>
         <a class="link onemenu" href = "#">contact</a>
         </div>
-        </div>`
+        </div>`;
+        bodyDOM[0].classList.add('invisible-scrollbar');
     }
 })

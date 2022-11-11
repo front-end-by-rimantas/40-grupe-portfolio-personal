@@ -28,3 +28,6 @@
 .onemenu:nth-child(1) {
     color: var(--bluegradient1);
 }
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+}
