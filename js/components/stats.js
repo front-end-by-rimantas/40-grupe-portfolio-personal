@@ -3,18 +3,19 @@ const counters = document.querySelectorAll('.counter');
 window.addEventListener('scroll', start);
 
 function start() {
-    var counter = counters;
+    let counter = counters;
 
-    for (var i = 0; i < counter.length; i++) {
-        var windowheight = window.innerHeight;
-        var countertop = counter[i].getBoundingClientRect().top;
-        var counterpoint = 150;
+    for (let i = 0; i < counter.length; i++) {
+        let windowheight = window.innerHeight;
+        let countertop = counter[i].getBoundingClientRect().top;
+        let counterpoint = 150;
 
         if (countertop < windowheight - counterpoint) {
             counter[i].classList.add('matoma');
         }
     }
 }
+const matoma = document.querySelectorAll('.matoma');
 
 counters.forEach((counter) => {
     counter.innerText = '0';
@@ -30,5 +31,7 @@ counters.forEach((counter) => {
             setTimeout(updateCounter, 1);
         }
     };
-    updateCounter();
+    if (matoma.values) {
+        updateCounter();
+    }
 });
