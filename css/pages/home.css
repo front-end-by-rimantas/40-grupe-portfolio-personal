@@ -63,6 +63,10 @@ header.container {
 /* THIS IS ME end */
 
 /* ABOUT ME start  */
+.about-me-container > .row {
+    text-transform: uppercase;
+    padding-top: 80px;
+}
 
 /* ABOUT ME end */
 
