@@ -1,5 +1,5 @@
 .feedback-container {
-    background-color: #f9f9;
+    background-color: #f9f9ff;
 }
 .title-container {
     text-align: center;
@@ -33,14 +33,29 @@
 .client-name {
     font-weight: 600;
     font-size: 18px;
+    transition: all 0.4s;
+}
+.client-name:hover {
+    color: #8490ff;
+    cursor: pointer;
 }
 .arrow-btn-container {
     text-align: center;
 }
 .btn-up,
 .btn-down {
-    padding: 15px 17px 10px;
+    font-size: 24px;
+    color: #777;
+    padding: 5px 17px 10px;
+    border: 1px solid #fff;
     background-color: #fff;
+    transition: all 0.4s;
+}
+.btn-up:hover,
+.btn-down:hover {
+    background-color: #8490ff;
+    color: #fff;
+    cursor: pointer;
 }
 @media (min-width: 768px) {
     .comment-pad {
@@ -65,5 +80,10 @@
     }
     .client-container {
         height: 200px;
+    }
+}
+@media (min-width: 1400px) {
+    .comment-pad {
+        padding-bottom: 30px;
     }
 }
