@@ -64,6 +64,41 @@ header.container {
 /* THIS IS ME end */
 
 /* ABOUT ME start  */
+.about-me-container > .row {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.about-me-container .about-me-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-me-container .title {
+    padding: 25px 0;
+}
+
+.about-me-container .description {
+    text-transform: none;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .about-me-container .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me-text .title {
+        font-size: 20px;
+    }
+}
+
 /* ABOUT ME end */
 
 /* MY OFFERED SERVICES start */
