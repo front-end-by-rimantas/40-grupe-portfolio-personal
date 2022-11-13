@@ -1,35 +1,47 @@
-.buy {
-
-}
-.buybtn > {
-    background-color: #edeeff;
-}
-.buybtn:hover {
-    
-}
-.buy:hover,.buy:hover .number-border,.buy:hover .number, .buy:hover .h3mar,.buy:hover .buybtn:hover {
-   background-color: transparent;
-    color: white; 
-}
-
-.buy:hover {
-    background: linear-gradient(var(--bluegradient1),var(--bluegradient2),var(--bluegradient3)); 
-}
-
-.hide{
-    display: none;
-}
-
-.buy:hover .hide{
-    display: block;
-    background-color: white;
-    text-decoration: none;
+.price {
+    font-size: 35px;
     color: black;
-    text-transform: uppercase;
-    margin: 30px 20px 30px 20px;
-    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-
-.buy:hover .show{
+.buy {
+}
+.buy:hover,
+.buy:hover .number-border,
+.buy:hover .number,
+.buy:hover .h3mar {
+    background-color: transparent;
+    color: white;
+}
+.buy:hover {
+    background: linear-gradient(
+        var(--bluegradient1),
+        var(--bluegradient2),
+        var(--bluegradient3)
+    );
+}
+.check1,
+.check2 {
+}
+.check1 {
+    display: block;
+}
+.check2 {
     display: none;
+    text-decoration: none;
+    font-size: medium;
+    background-color: white;
+    text-transform: uppercase;
+    height: 53px;
+    line-height: 53px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bbtn {
+}
+.bbtn:hover .check1 {
+    display: none;
+}
+.bbtn:hover .check2 {
+    display: block;
 }
