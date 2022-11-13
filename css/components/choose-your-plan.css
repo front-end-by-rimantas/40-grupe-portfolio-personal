@@ -20,13 +20,13 @@
         var(--bluegradient3)
     );
 }
-.check1,
-.check2 {
+.hower1,
+.hower2 {
 }
-.check1 {
+.hower1 {
     display: block;
 }
-.check2 {
+.hower2 {
     display: none;
     text-decoration: none;
     font-size: medium;
@@ -39,9 +39,9 @@
 }
 .bbtn {
 }
-.bbtn:hover .check1 {
+.bbtn:hover .hower1 {
     display: none;
 }
-.bbtn:hover .check2 {
+.bbtn:hover .hower2 {
     display: block;
 }
