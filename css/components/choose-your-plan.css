@@ -45,3 +45,9 @@
 .bbtn:hover .hower2 {
     display: block;
 }
+.buy:hover > .bbtn > .hower2 {
+    display: block;
+}
+.buy:hover > .bbtn > .hower1 {
+    display: none;
+}
