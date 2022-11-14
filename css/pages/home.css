@@ -103,6 +103,9 @@ header.container {
 /* CLIENTS FEEDBACK end */
 
 /* CHOOSE YOUR PLAN start */
+.row.custom {
+    display: flex;
+}
 .choose {
     font-size: 14px;
     color: #777;

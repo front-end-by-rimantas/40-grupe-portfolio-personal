@@ -1,11 +1,15 @@
+/* :root {
+    --increment: 0;
+    --half-gap: 0;
+} */
+
 .price {
     font-size: 35px;
     color: black;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
-.buy {
-}
+
 .buy:hover,
 .buy:hover .number-border,
 .buy:hover .number,
@@ -13,41 +17,71 @@
     background-color: transparent;
     color: white;
 }
+.buy {
+    padding: 20px;
+}
 .buy:hover {
     background: linear-gradient(
         var(--bluegradient1),
         var(--bluegradient2),
         var(--bluegradient3)
     );
+    transform: scale(1.05);
 }
-.hower1,
-.hower2 {
+.bbtn {
+    max-height: 52px;
+    overflow: hidden;
 }
-.hower1 {
+/* .hower1 {
     display: block;
-}
+} */
 .hower2 {
     display: none;
     text-decoration: none;
     font-size: medium;
     background-color: white;
+    font-size: 14px;
     text-transform: uppercase;
-    height: 53px;
-    line-height: 53px;
+    padding: 14px;
     margin-left: 20px;
     margin-right: 20px;
-}
-.bbtn {
-}
-.bbtn:hover .hower1 {
-    display: none;
-}
-.bbtn:hover .hower2 {
-    display: block;
 }
 .buy:hover > .bbtn > .hower2 {
     display: block;
 }
 .buy:hover > .bbtn > .hower1 {
     display: none;
+}
+
+.row.custom {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row.custom .choose {
+    width: 25%;
+}
+
+@media (max-width: 992px) {
+    .row.custom {
+        width: 80%;
+    }
+    .row.custom .choose {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 564px) {
+    .row.custom {
+        width: 100%;
+        flex-direction: column;
+    }
+    .row.custom .choose {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
