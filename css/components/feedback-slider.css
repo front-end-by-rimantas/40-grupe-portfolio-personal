@@ -10,12 +10,6 @@
     padding: 25px 30px 15px;
     display: flex;
 }
-
-.col-lg-6,
-.col-12,
-.col-md-12 {
-    --half-gap: 15px;
-}
 .client-text {
     padding-bottom: 15px;
 }
