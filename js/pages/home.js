@@ -2,6 +2,7 @@
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
 import "../components/stats.js";
+import renderBrands from "../components/brands.js"
 
 // EXECUTION
 (async () => {
@@ -53,6 +54,16 @@ import "../components/stats.js";
     // BLOG POSTS end
 
     // BLUE ZONE LOGOS start
+    try {
+        const response = await fetch('./data/brands.json');
+        const data = await response.json();
+        const brandsResponse = renderBrands('brands-block', data);
+        if (brandsResponse[0]) {
+            console.error(brandsResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     // BLUE ZONE LOGOS end
 
     // FOOTER start
