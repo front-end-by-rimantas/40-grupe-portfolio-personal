@@ -14,7 +14,7 @@ function renderGallery(selector, data) {
         HTML += `<div class="col-12 col-md-6 col-lg-4">
                     <img src="${item.img}" alt="${item.alt}"/>
                     <a href="${item.img}">
-                      <div class="title">${item.title}</div>
+                      <div class="gallery-title">${item.title}</div>
                     <p class="description">${item.tags[0]}</p>
             </div>`;
     }
