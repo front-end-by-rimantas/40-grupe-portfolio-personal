@@ -2,17 +2,29 @@
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
 import "../components/stats.js";
-import "../components/hidden-menu.js";
+import renderHiddenMenu from "../components/hidden-menu.js";
 
 // EXECUTION
 (async () => {
     // HEADER start
+    // menu
     try {
         const response = await fetch('./data/header-menu.json');
         const data = await response.json();
         const menuResponse = renderMenu('menu', data);
         if (menuResponse[0]) {
             console.error(menuResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
+    // hidden-menu
+    try {
+        const response = await fetch('./data/header-menu.json');
+        const data = await response.json();
+        const hiddenMenuResponse = renderHiddenMenu('hidden-menu', data);
+        if (hiddenMenuResponse[0]) {
+            console.error(hiddenMenuResponse[1]);
         }
     } catch (error) {
         console.log(error);

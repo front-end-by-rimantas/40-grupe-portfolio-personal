@@ -10,13 +10,15 @@ function renderMenu(selector, data) {
     let HTML = '';
 
     for (const item of data) {
-        HTML += `<a class="link" href="#">${item.title}</a>`
+        HTML += `<a class="link" id = "${item.title}" href="#">${item.title}</a>`
     }
 
     DOM.innerHTML = HTML;
 
     return [false, 'OK'];
 }
-
 export default renderMenu;
 /* <i class="fa fa-angle-down" aria-hidden="true"></i> */
+
+// const level2DOM = document.getElementById('blog');
+// console.log(level2DOM);

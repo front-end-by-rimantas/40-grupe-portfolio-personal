@@ -1,23 +1,27 @@
-const DOM = document.getElementById('hidden-menu');
-const bodyDOM = document.getElementsByTagName('body')
-
-DOM.addEventListener('click', () => {
-    if (DOM.innerHTML.includes("home")) {
-        DOM.innerHTML = '';
-        bodyDOM[0].classList.remove('invisible-scrollbar');
-    } else {
-        DOM.innerHTML = `<div class = "box">
-        <div class = "menu-box">
-        <a class="link onemenu" href = "#">home</a>
-        <a class="link onemenu" href = "#">about</a>
-        <a class="link onemenu" href = "#">services</a>
-        <a class="link onemenu" href = "#">portfolio</a>
-        <a class="link onemenu" href = "#">pricing</a>
-        <a class="link onemenu" href = "#">blog</a>
-        <a class="link onemenu" href = "#">pages</a>
-        <a class="link onemenu" href = "#">contact</a>
-        </div>
-        </div>`;
-        bodyDOM[0].classList.add('invisible-scrollbar');
+function renderHiddenMenu(selector, data) {
+    const DOM = document.getElementById(selector);
+    if (DOM === null) {
+        return [true, 'Nepavyko rasti selector'];
     }
-})
+    if (!Array.isArray(data)) {
+        return [true, 'Duomenys turi buti masyve'];
+    }
+
+    const bodyDOM = document.getElementsByTagName('body')
+    DOM.addEventListener('click', () => {
+        if (DOM.innerHTML.includes("home")) {
+            DOM.innerHTML = '';
+            bodyDOM[0].classList.remove('invisible-scrollbar');
+        } else {
+            let HTML = '<div class = "box"><div class = "menu-box">';
+            for (const item of data) {
+                HTML += `<a class="link onemenu" href = "#">${item.title}</a>`
+            }
+            HTML += '</div></div>'
+            bodyDOM[0].classList.add('invisible-scrollbar');
+            DOM.innerHTML = HTML;
+        }
+    })
+    return [false, 'OK'];
+}
+export default renderHiddenMenu;
