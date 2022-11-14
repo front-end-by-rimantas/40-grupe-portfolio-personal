@@ -21,18 +21,14 @@
 
 <body>
     <!-- HEADER-start -->
-    <header class="container">
-        <img class="logo" src="./img/header_logo.png" alt="logo">
-        <nav class="header-menu">
-            <a class="link" href="#">home</a>
-            <a class="link" href="#">about</a>
-            <a class="link" href="#">services</a>
-            <a class="link" href="#">portfolio</a>
-            <a class="link" href="#">pricing</a>
-            <a class="link" href="#">blog</a>
-            <a class="link" href="#">pages</a>
-            <a class="link" href="#">contact</a>
-        </nav>
+    <header class="container header-container">
+        <div class="row">
+            <div class="col-12 visible-flex">
+                <a href="#"><img src="./img/header_logo.png" alt="logo"></a>
+                <nav class="header-menu hide" id="menu"></nav>
+                <i class="fa fa-bars fa-lg hidden-lg" id="hidden-menu"></i>
+            </div>
+        </div>
     </header>
     <!-- HEADER-end -->
     <!-- THIS IS ME start -->
@@ -50,6 +46,25 @@
     <!-- THIS IS ME end -->
 
     <!-- ABOUT ME start -->
+    <section class="container about-me-container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img src="./img/about-me-img.png" alt="about-me-img" class="about-me-img">
+            </div>
+            <div class="col-11 col-md-6 col-lg-5 col-xl-5 about-me-text">
+                <div>
+                    <p>about me</p>
+                    <h1 class="title">personal details</h1>
+                    <p class="description">Here, I focus on a range of items and features that we use in life
+                        without giving them a second thought. Such as Coca Cola. Dolor sit
+                        amet, consectetur adipisicing elit, sed do eiusmod tempor inicididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.</p>
+                    <a class="button" href="#">view full details</a>
+                </div>
+
+            </div>
+    </section>
     <!-- ABOUT ME end -->
 
     <!-- MY OFFERED SERVICES start -->
@@ -68,19 +83,19 @@
     <section class="container stats">
         <div class="row">
             <div class="stats-column col-12 col-sm-12 col-md-6 col-lg-3">
-                <h3 class="counter">2136</h3>
+                <h3 class="counter" data-val="2136">0</h3>
                 <p class="countername">Projects completed</p>
             </div>
             <div class="stats-column col-12 col-sm-12 col-md-6 col-lg-3">
-                <h3 class="counter">6784</h3>
+                <h3 class="counter" data-val="6784">0</h3>
                 <p class="countername">Happy clients</p>
             </div>
             <div class="stats-column col-12 col-sm-12 col-md-6 col-lg-3">
-                <h3 class="counter">2239</h3>
+                <h3 class="counter" data-val="2239">0</h3>
                 <p class="countername">Cups of coffee</p>
             </div>
             <div class="stats-column col-12 col-sm-12 col-md-6 col-lg-3">
-                <h3 class="counter">434</h3>
+                <h3 class="counter" data-val="434">0</h3>
                 <p class="countername">Real professionals</p>
             </div>
         </div>
@@ -91,6 +106,40 @@
     <!-- FEATURED PROJECTS end -->
 
     <!-- CLIENTS FEEDBACK start -->
+    <section class="container feedback-container">
+        <div class="row">
+            <div class="col-12 col-lg-10 ml-lg-1 title-container">
+                <h6 class="title">Client's Feedback About Me</h6>
+                <p class="description">It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 ml-lg-1 client-container">
+                <div class="client-img">
+                    <img src="./img/Client-feedback/user1.png" alt="">
+                </div>
+                <div class="client-text">
+                    <p class="description comment">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.</p>
+                    <h7 class="client-name">Harriet Maxwell</h7>
+                    <p class="description">CEO at Google</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 hidden visible-md-flex client-container">
+                <div class="client-img">
+                    <img src="./img/Client-feedback/user2.png" alt="">
+                </div>
+                <div class="client-text">
+                    <p class="description comment comment-pad">A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.</p>
+                    <h7 class="client-name">Carolyn Craig</h7>
+                    <p class="description">CEO at Facebook</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-1 arrow-btn-container">
+                <a class="btn-up">&#8593</a>
+                <a class="btn-down">&#8595</a>
+            </div>
+        </div>
+    </section>
     <!-- CLIENTS FEEDBACK end -->
 
     <!-- CHOOSE YOUR PLAN start -->
@@ -208,6 +257,7 @@
     </footer>
     <!-- FOOTER end -->
     <script src="./js/pages/home.js" type="module" defer></script>
+    <script src="./js/components/hidden-menu.js" type="module" defer></script>
 </body>
 
 </html>

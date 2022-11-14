@@ -54,3 +54,11 @@ footer > .row {
     padding: 70px 0;
 }
 /* FOOTER end  */
+
+/* HEADER start */
+@media (max-width:992px) {
+    .hide {
+        display: none;
+    }
+}
+/* HEADER end */
