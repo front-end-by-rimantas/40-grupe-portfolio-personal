@@ -9,7 +9,7 @@ function renderBrands(selector, data) {
     let HTML = '';
 
     for (const item of data) {
-        HTML += `<a href="#" class="brand"><img src="./img/brands/${item.brand}.png"></a>`;
+        HTML += `<a href="#" class="brand col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2"><img class="brand" src="./img/brands/${item.brand}.png" alt="brand"></a>`;
     }
 
     DOM.innerHTML = HTML;

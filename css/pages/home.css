@@ -181,13 +181,9 @@ header.container {
 
 /* BLUE ZONE LOGOS start  */
 .brand{
-    margin:0 36px;
-    height: 154px;
+    text-align: center;
 }
-.brandarea{
-    padding: 60px 0;
-    align-items: center;
-}
+
 /* BLUE ZONE LOGOS end */
 
 /* FOOTER start */
