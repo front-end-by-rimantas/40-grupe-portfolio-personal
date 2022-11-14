@@ -2,6 +2,7 @@
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
 import "../components/stats.js";
+import "../components/hidden-menu.js";
 
 // EXECUTION
 (async () => {
