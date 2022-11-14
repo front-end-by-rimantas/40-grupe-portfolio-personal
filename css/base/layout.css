@@ -242,7 +242,7 @@
         display: none !important;
     }
     .container > .row {
-        width: 750px;
+        width: 720px;
         margin: 0 calc(50% - 360px);
     }
     .container > .row > .col-md-1 {
