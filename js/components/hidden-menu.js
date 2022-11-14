@@ -18,7 +18,7 @@ function renderHiddenMenu(selector, data) {
                 HTML += `<a class="link onemenu" href = "#">${item.title}</a>`
             }
             HTML += '</div></div>'
-            bodyDOM[0].classList.add('invisible-scrollbar');
+            bodyDOM[0].classList.add('scrollbar-position');
             DOM.innerHTML = HTML;
         }
     })
