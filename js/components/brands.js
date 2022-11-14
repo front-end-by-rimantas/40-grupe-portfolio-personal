@@ -6,7 +6,7 @@ function renderBrands(selector, data) {
     if (!Array.isArray(data)) {
         return [true, 'Duomenys turi buti masyve'];
     }
-    let HTML = '';
+    let HTML = '<span class="col-xxl-1 col-xl-1"></span>';
 
     for (const item of data) {
         HTML += `<a href="#" class="brand col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-2"><img class="brand" src="./img/brands/${item.brand}.png" alt="brand"></a>`;
