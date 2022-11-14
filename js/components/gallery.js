@@ -12,8 +12,7 @@ function renderGallery(selector, data) {
 
     for (const item of data) {
         HTML += `<div class="col-12 col-md-6 col-lg-4">
-                    <img src="${item.img}" alt="${item.alt}"/>
-                    <a href="${item.img}">
+                    <img class="gallery-img" src="${item.img}" alt="#"/>
                       <div class="gallery-title">${item.title}</div>
                     <p class="description">${item.tags[0]}</p>
             </div>`;
