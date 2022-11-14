@@ -1,7 +1,7 @@
 // IMPORTS
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
-
+import "../components/stats.js";
 
 // EXECUTION
 (async () => {
