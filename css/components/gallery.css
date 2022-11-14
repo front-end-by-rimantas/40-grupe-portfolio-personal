@@ -2,15 +2,15 @@
     text-align: center;
     margin-top: 50px;
 }
-
-.gallery-links {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 80px 0px 50px 0;
+.gallery-container .title {
+    margin-bottom: 20px;
 }
 
-.gallery-links > li {
+#gallery-filters {
+    padding: 80px 0 50px 0;
+}
+#gallery-filters > a {
+    color: #222;
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
@@ -18,7 +18,7 @@
     padding-left: 30px;
 }
 
-.gallery-links > li:first-child {
+#gallery-filters > a:first-child {
     color: var(--bluegradient1);
     padding-left: 0px;
 }

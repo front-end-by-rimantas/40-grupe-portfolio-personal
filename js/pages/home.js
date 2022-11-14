@@ -2,6 +2,7 @@
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
 import renderGallery from "../components/gallery.js";
+import renderGalleryFilters from "../components/gallery-filters.js";
 
 
 // EXECUTION
@@ -52,6 +53,18 @@ import renderGallery from "../components/gallery.js";
     } catch (error) {
         console.log(error);
     }
+    try {
+        const response = await fetch('./data/gallery-filters.json');
+        const data = await response.json();
+        const galleryFiltersResponse = renderGalleryFilters('gallery-filters', data);
+        if (galleryFiltersResponse[0]) {
+            console.error(galleryFiltersResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
+
+
     // GALLERY FEATURED PROJECTS end
 
     // CLIENTS FEEDBACK start
