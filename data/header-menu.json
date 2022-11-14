@@ -4,7 +4,7 @@
     {"title" : "services"},
     {"title" : "portfolio"},
     {"title" : "pricing"},
-    {"title" : "blog"},
+    {"title" : "blog", "level-2" : ["blog home", "blog single"]},
     {"title" : "pages"},
     {"title" : "contact"}
 ]

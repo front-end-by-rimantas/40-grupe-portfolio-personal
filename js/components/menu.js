@@ -19,3 +19,4 @@ function renderMenu(selector, data) {
 }
 
 export default renderMenu;
+/* <i class="fa fa-angle-down" aria-hidden="true"></i> */
