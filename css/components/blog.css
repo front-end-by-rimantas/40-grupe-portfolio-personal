@@ -1,0 +1,8 @@
+.col-12 {
+    --half-gap: 15px;
+}
+
+.title,
+.description {
+    text-align: center;
+}
