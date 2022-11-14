@@ -1,31 +1,31 @@
 [
     {
-        "img": "img/gallery/p1.jpg.webp",
+        "img": ".img/gallery/p1.jpg.webp",
         "title": "2D Vinyl Design",
         "tags": ["Vector"]
     },
     {
-        "img": "img/gallery/p2.jpg.webp",
+        "img": ".img/gallery/p2.jpg.webp",
         "title": "2D Vinyl Design",
         "tags": ["Vector"]
     },
     {
-        "img": "img/gallery/p3.jpg.webp",
+        "img": ".img/gallery/p3.jpg.webp",
         "title": "Creative Poster Design",
-        "tags": ["Agency"]
+        "tags": ["Agency", "UI/UX"]
     },
     {
-        "img": "img/gallery/p4.jpg.webp",
+        "img": ".img/gallery/p4.jpg.webp",
         "title": "Embosed Logo Design",
-        "tags": ["Portal"]
+        "tags": ["Portal", "Printing"]
     },
     {
-        "img": "img/gallery/p5.jpg.webp",
+        "img": ".img/gallery/p5.jpg.webp",
         "title": "3D Helmet Design",
         "tags": ["Vector"]
     },
     {
-        "img": "img/gallery/p6.jpg.webp",
+        "img": ".img/gallery/p6.jpg.webp",
         "title": "2D Vinyl Design",
         "tags": ["Raster"]
     }
