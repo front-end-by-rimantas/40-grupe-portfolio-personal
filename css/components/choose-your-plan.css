@@ -1,13 +1,8 @@
-/* :root {
-    --increment: 0;
-    --half-gap: 0;
-} */
-
 .price {
     font-size: 35px;
     color: black;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .buy:hover,
@@ -27,14 +22,13 @@
         var(--bluegradient3)
     );
     transform: scale(1.05);
-}
-.bbtn {
-    max-height: 52px;
+    transition: all 0.5s;
     overflow: hidden;
 }
-/* .hower1 {
-    display: block;
-} */
+.bbtn {
+    max-height: 72px;
+    overflow: hidden;
+}
 .hower2 {
     display: none;
     text-decoration: none;
@@ -43,8 +37,8 @@
     font-size: 14px;
     text-transform: uppercase;
     padding: 14px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .buy:hover > .bbtn > .hower2 {
     display: block;
@@ -74,14 +68,26 @@
         margin-bottom: 20px;
     }
 }
-
-@media (max-width: 564px) {
+@media (max-width: 768px) {
     .row.custom {
-        width: 100%;
+        width: 80%;
         flex-direction: column;
     }
     .row.custom .choose {
         width: 100%;
         margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .row.custom {
+        width: 90%;
+        flex-direction: column;
+    }
+    .row.custom .choose {
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
     }
 }
