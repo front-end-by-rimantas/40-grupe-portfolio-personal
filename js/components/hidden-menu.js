@@ -7,11 +7,14 @@ function renderHiddenMenu(selector, data) {
         return [true, 'Duomenys turi buti masyve'];
     }
 
-    const bodyDOM = document.getElementsByTagName('body')
+    const bodyDOM = document.getElementsByTagName('body');
+    const sectionDOM = document.getElementsByTagName('section');
+    // console.log(sectionDOM);
     DOM.addEventListener('click', () => {
         if (DOM.innerHTML.includes("home")) {
             DOM.innerHTML = '';
             bodyDOM[0].classList.remove('scrollbar-scroll');
+            // sectionDOM[0].classList.remove('scroll');
         } else {
             let HTML = '<div class = "box"><div class = "menu-box">';
             for (const item of data) {
@@ -19,6 +22,7 @@ function renderHiddenMenu(selector, data) {
             }
             HTML += '</div></div>'
             bodyDOM[0].classList.add('scrollbar-scroll');
+            // sectionDOM[0].classList.add('scroll');
             DOM.innerHTML = HTML;
         }
     })

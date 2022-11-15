@@ -44,6 +44,8 @@
 .scrollbar-scroll::-webkit-scrollbar {
     display: none;
 }
+
 .scrollbar-scroll {
-    position: static;
+   height: 100%;
+   overflow-y: hidden;
 }
