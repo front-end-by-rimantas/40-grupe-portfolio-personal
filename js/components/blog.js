@@ -14,8 +14,10 @@ function renderBlog(selector, data) {
                 <div>
                     <img class="blog-img" src="./img/Blog/${item.bgImg}">
                     <div class="blog-img-info">
-                        <img src="./img/Blog/${item.userImg}">
-                        <a class="blog-name" href="#"><span>${item.userName}</span></a>
+                        <div class="blog-user">
+                            <img src="./img/Blog/${item.userImg}">
+                            <a class="blog-name" href="#"><span>${item.userName}</span></a>
+                        </div>
                         <p class="description">13th Dec <i class="fa fa-heart"></i> 15 <i class="fa fa-comment"></i> 04</p>
                     </div>
                 </div>
