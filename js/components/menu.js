@@ -10,13 +10,13 @@ function renderMenu(selector, data) {
     let HTML = '';
 
     for (const item of data) {
-        HTML += `<a class="link" id = "${item.title}" href="#">${item.title}</a>`
+        HTML += `<a class="link" id = "${item.title}1" href="#">${item.title}</a>`
     }
     DOM.innerHTML = HTML;
 
     // level2 menu
 
-    const level2DOM = document.getElementById('blog');
+    const level2DOM = document.getElementById('blog1');
     level2DOM.addEventListener('mouseenter', () => {
         let HTML2 = `<div class = "level2box">
                          <a class="link level2" href="#">blog home</a>
@@ -29,7 +29,7 @@ function renderMenu(selector, data) {
         level2DOM.innerHTML = HTML2;
     })
 
-    const level21DOM = document.getElementById('pages');
+    const level21DOM = document.getElementById('pages1');
     level21DOM.addEventListener('mouseenter', () => {
         let HTML3 = `<div class = "level2box">
                          <a class="link level2" href="#">elements</a>
