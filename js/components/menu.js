@@ -15,13 +15,13 @@ function renderMenu(selector, data) {
     DOM.innerHTML = HTML;
 
     // level2 menu
-    // const level2DOM = document.getElementById('blog');
-    // console.log(level2DOM);
+    const level2DOM = document.getElementById('blog');
+    console.log(level2DOM);
 
-    // level2DOM.addEventListener('mouseover', () => {
-    //     let HTML2 = `<a class="link level2" href="#">blog home</a>`
-    //     level2DOM.innerHTML = HTML2;
-    // })
+    level2DOM.addEventListener('mouseover', () => {
+        let HTML2 = `<a class="link level2" href="#">blog home</a>`
+        level2DOM.innerHTML = HTML2;
+    })
 
 
 
@@ -29,4 +29,3 @@ function renderMenu(selector, data) {
 }
 export default renderMenu;
 /* <i class="fa fa-angle-down" aria-hidden="true"></i> */
-
