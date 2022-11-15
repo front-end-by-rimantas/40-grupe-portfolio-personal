@@ -173,34 +173,26 @@ header > .row > .visible-flex {
 /* BLOG POSTS end */
 
 /* BLUE ZONE LOGOS start  */
+.brandarea{
+    overflow-x: hidden;
+    max-width: auto; 
+}
+.brandwrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * var(--per-view) -1)) / var(--per-view));
+    gap: 1.5rem;
+    position: relative;
+    left: 0;
+    transition: .3s;
+}
 .brand{
-    text-align: center;
-    opacity: 60%;
-    display: none;
+    object-fit: cover;
+    display: block;
+    opacity: 0.6;
 }
-.brandarea > span {
-    display: none;
-}
-.brand:nth-of-type(1) {display: inline-block;}
 .brand:hover {
-    opacity: 100%;
-    transition-duration: 0.4s;
-}
-@media (min-width: 576px) {
-    .brand:nth-of-type(1), .brand:nth-of-type(2) {display: inline-block;}
-}
-@media (min-width: 768px) {
-    .brand:nth-of-type(1), .brand:nth-of-type(2), .brand:nth-of-type(3) {display: inline-block;}
-}
-@media (min-width: 768px) {
-    .brand:nth-of-type(1), .brand:nth-of-type(2), .brand:nth-of-type(3) {display: inline-block;}
-}
-@media (min-width: 992px) {
-    .brand:nth-of-type(1), .brand:nth-of-type(2), .brand:nth-of-type(3), .brand:nth-of-type(4) {display: inline-block;}
-}
-@media (min-width: 1200px) {
-    .brand {display: inline-block;}
-    .brandarea > span {display: inline-block;}
+    opacity: 1;
 }
 /* BLUE ZONE LOGOS end */
 
