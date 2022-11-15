@@ -8,21 +8,18 @@ function renderHiddenMenu(selector, data) {
     }
 
     const bodyDOM = document.getElementsByTagName('body');
-    const sectionDOM = document.getElementsByTagName('section');
-    // console.log(sectionDOM);
+
     DOM.addEventListener('click', () => {
         if (DOM.innerHTML.includes("home")) {
             DOM.innerHTML = '';
             bodyDOM[0].classList.remove('scrollbar-scroll');
-            // sectionDOM[0].classList.remove('scroll');
         } else {
-            let HTML = '<div class = "box"><div class = "menu-box">';
+            let HTML = '';
             for (const item of data) {
                 HTML += `<a class="link onemenu" href = "#">${item.title}</a>`
             }
-            HTML += '</div></div>'
+            HTML = `<div class = "box"><div class = "menu-box">${HTML}</div></div>`
             bodyDOM[0].classList.add('scrollbar-scroll');
-            // sectionDOM[0].classList.add('scroll');
             DOM.innerHTML = HTML;
         }
     })

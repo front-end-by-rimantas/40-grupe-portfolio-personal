@@ -16,11 +16,19 @@ function renderMenu(selector, data) {
 
     // level2 menu
     const level2DOM = document.getElementById('blog');
-    console.log(level2DOM);
 
     level2DOM.addEventListener('mouseover', () => {
-        let HTML2 = `<a class="link level2" href="#">blog home</a>`
+        let HTML2 = `<div class = "level2box">
+                         <a class="link level2" href="#">blog home</a>
+                          <a class="link level2" href="#">blog single</a>
+                      </div>`
+        level2DOM.innerHTML += HTML2;
+    })
+
+    level2DOM.addEventListener('mouseout', () => {
+        let HTML2 = 'blog'
         level2DOM.innerHTML = HTML2;
+
     })
 
 
@@ -28,4 +36,4 @@ function renderMenu(selector, data) {
     return [false, 'OK'];
 }
 export default renderMenu;
-/* <i class="fa fa-angle-down" aria-hidden="true"></i> */
+// /* <i class="fa fa-angle-down"></i> */

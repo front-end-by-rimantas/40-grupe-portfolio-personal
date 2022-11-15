@@ -2,9 +2,9 @@
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
 import "../components/stats.js";
-import renderHiddenMenu from "../components/hidden-menu.js";
 import renderGallery from "../components/gallery.js";
 import renderGalleryFilters from "../components/gallery-filters.js";
+import renderHiddenMenu from "../components/hidden-menu.js";
 
 // EXECUTION
 (async () => {

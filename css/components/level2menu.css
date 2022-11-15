@@ -1,0 +1,12 @@
+.level2box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 15%;
+    top: 55%;
+}
+.level2 {
+    margin-top: 20px;
+}

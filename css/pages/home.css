@@ -16,6 +16,7 @@
 @import '../components/out-latest-full-img.css';
 @import '../components/statistics.css';
 @import '../components/hidden-menu.css';
+@import '../components/level2menu.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -30,7 +31,7 @@ header > .row > .visible-flex {
     align-items: center;
 }
 
-.header-menu > .link {
+.header-menu .link {
     text-decoration: none;
     font-size: 12px;
     font-weight: 500;
