@@ -39,7 +39,7 @@
     // BLUE ZONE STATISTICS start
     // BLUE ZONE STATISTICS end
 
-    // GALLERY FEATURED PROJECTS start
+    // FEATURED PROJECTS start
     try {
         const response = await fetch('./data/gallery.json');
         const data = await response.json();
@@ -60,7 +60,7 @@
     } catch (error) {
         console.log(error);
     }
-    // GALLERY FEATURED PROJECTS end
+    // FEATURED PROJECTS end
 
     // CLIENTS FEEDBACK start
     // CLIENTS FEEDBACK end
