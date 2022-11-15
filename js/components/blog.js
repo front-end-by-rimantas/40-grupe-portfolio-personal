@@ -12,17 +12,16 @@ function renderBlog(selector, data) {
     for (const item of data) {
         HTML += `<div class="col-12 col-md-4 blog-col">
                 <div>
-                    <img class="blog-img" src="./img/Blog/${item.bg - img}">
+                    <img class="blog-img" src="./img/Blog/${item.bgImg}">
                     <div class="blog-img-info">
-                        <img src="./img/Blog/${item.user - img}">
-                        <a class="blog-name" href="#"><span>${item.user - name
-            }</span></a>
+                        <img src="./img/Blog/${item.userImg}">
+                        <a class="blog-name" href="#"><span>${item.userName}</span></a>
                         <p class="description">13th Dec <i class="fa fa-heart"></i> 15 <i class="fa fa-comment"></i> 04</p>
                     </div>
                 </div>
                 <div class="blog-text">
-                    <h4 class="title">${item.blog - title}</h4>
-                    <p class="description">${item.blog - desc}</p>
+                    <h4 class="title">${item.blogTitle}</h4>
+                    <p class="description">${item.blogDesc}</p>
                 </div>
             </div>`;
     }
@@ -31,3 +30,5 @@ function renderBlog(selector, data) {
 
     return [false, 'OK'];
 }
+
+export default renderBlog;
