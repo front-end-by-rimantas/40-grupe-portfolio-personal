@@ -20,7 +20,7 @@ function renderMenu(selector, data) {
     }
     DOM.innerHTML = HTML;
 
-    // level2 menu
+    // level 2 menu
 
     const level2DOM = document.getElementById('blog1');
     level2DOM.addEventListener('mouseenter', () => {
@@ -36,7 +36,6 @@ function renderMenu(selector, data) {
     })
 
     const level21DOM = document.getElementById('pages1');
-    // level21DOM.classList.add('fa fa-angle-down');
     level21DOM.addEventListener('mouseenter', () => {
         let HTML3 = `<div class = "level2box">
                          <a class="link level2" href="#">elements</a>
