@@ -1,14 +1,26 @@
-.col-12 {
-    --half-gap: 15px;
+.blog-col > div:nth-child(2) > h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    padding-bottom: 20px;
 }
-
 .title,
 .description {
     text-align: center;
+    display: flex;
+    float: right;
+    gap: 10px;
 }
 .blog-img {
     width: 100%;
 }
+.blog-img-info {
+    padding: 15px 0 50px;
+}
+.blog-img-info > img {
+    padding-right: 10px;
+}
 .blog-name {
     text-decoration: none;
+    color: #777;
 }
