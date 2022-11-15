@@ -1,6 +1,7 @@
 // IMPORTS
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
+
 import renderGallery from "../components/gallery.js";
 import renderGalleryFilters from "../components/gallery-filters.js";
 
