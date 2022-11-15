@@ -173,6 +173,35 @@ header > .row > .visible-flex {
 /* BLOG POSTS end */
 
 /* BLUE ZONE LOGOS start  */
+.brand{
+    text-align: center;
+    opacity: 60%;
+    display: none;
+}
+.brandarea > span {
+    display: none;
+}
+.brand:nth-of-type(1) {display: inline-block;}
+.brand:hover {
+    opacity: 100%;
+    transition-duration: 0.4s;
+}
+@media (min-width: 576px) {
+    .brand:nth-of-type(1), .brand:nth-of-type(2) {display: inline-block;}
+}
+@media (min-width: 768px) {
+    .brand:nth-of-type(1), .brand:nth-of-type(2), .brand:nth-of-type(3) {display: inline-block;}
+}
+@media (min-width: 768px) {
+    .brand:nth-of-type(1), .brand:nth-of-type(2), .brand:nth-of-type(3) {display: inline-block;}
+}
+@media (min-width: 992px) {
+    .brand:nth-of-type(1), .brand:nth-of-type(2), .brand:nth-of-type(3), .brand:nth-of-type(4) {display: inline-block;}
+}
+@media (min-width: 1200px) {
+    .brand {display: inline-block;}
+    .brandarea > span {display: inline-block;}
+}
 /* BLUE ZONE LOGOS end */
 
 /* FOOTER start */
