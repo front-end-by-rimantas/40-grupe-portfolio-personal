@@ -16,9 +16,7 @@
     margin-right: 15px;
 }
 
-header > i {
-    margin-left: 10px;
-    padding-top: 10px;
-    columns: blue;
-    background-color: black;
+header i {
+    margin-left: 7px;
+    padding-top: 0.3em;
 }
