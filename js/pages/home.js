@@ -1,6 +1,7 @@
 // IMPORTS
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
+import renderBlog from "../components/blog.js";
 import "../components/stats.js";
 import renderGallery from "../components/gallery.js";
 import renderGalleryFilters from "../components/gallery-filters.js";
@@ -85,6 +86,16 @@ import renderHiddenMenu from "../components/hidden-menu.js";
     // CHOOSE YOUR PLAN end
 
     // BLOG POSTS start
+    try {
+        const response = await fetch('./data/blog.json');
+        const data = await response.json();
+        const blogResponse = renderBlog('blog', data);
+        if (blogResponse[0]) {
+            console.error(blogResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     // BLOG POSTS end
 
     // BLUE ZONE LOGOS start
