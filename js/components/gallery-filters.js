@@ -11,7 +11,7 @@ function renderGalleryFilters(selector, data) {
     let HTML = '';
 
     for (const item of data) {
-        HTML += `<a href="#">${item.filter}</a>`;
+        HTML += `<a class="hidden" href="#">${item.filter}</a>`;
     }
 
     DOM.innerHTML = HTML;
