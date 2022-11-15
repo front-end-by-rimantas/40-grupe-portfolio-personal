@@ -63,8 +63,6 @@ import renderGalleryFilters from "../components/gallery-filters.js";
     } catch (error) {
         console.log(error);
     }
-
-
     // GALLERY FEATURED PROJECTS end
 
     // CLIENTS FEEDBACK start
