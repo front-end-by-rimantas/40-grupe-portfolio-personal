@@ -10,7 +10,13 @@ function renderMenu(selector, data) {
     let HTML = '';
 
     for (const item of data) {
-        HTML += `<a class="link" id = "${item.title}1" href="#">${item.title}</a>`
+        if (item.title === 'pages' || item.title === 'blog') {
+            console.log(item);
+            HTML += `<a class="link" id = "${item.title}1" href="#">${item.title}<i class="fa fa-angle-down"></i></a>`
+        } else {
+            console.log(item);
+            HTML += `<a class="link" id = "${item.title}1" href="#">${item.title}</a>`
+        }
     }
     DOM.innerHTML = HTML;
 
@@ -25,11 +31,12 @@ function renderMenu(selector, data) {
         level2DOM.innerHTML += HTML2;
     })
     level2DOM.addEventListener('mouseleave', () => {
-        let HTML2 = 'blog'
+        let HTML2 = 'blog<i class="fa fa-angle-down"></i>'
         level2DOM.innerHTML = HTML2;
     })
 
     const level21DOM = document.getElementById('pages1');
+    // level21DOM.classList.add('fa fa-angle-down');
     level21DOM.addEventListener('mouseenter', () => {
         let HTML3 = `<div class = "level2box">
                          <a class="link level2" href="#">elements</a>
@@ -38,7 +45,7 @@ function renderMenu(selector, data) {
         level21DOM.innerHTML += HTML3;
     })
     level21DOM.addEventListener('mouseleave', () => {
-        let HTML3 = 'blog'
+        let HTML3 = 'pages<i class="fa fa-angle-down"></i>'
         level21DOM.innerHTML = HTML3;
     })
 
