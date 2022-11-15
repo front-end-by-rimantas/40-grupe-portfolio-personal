@@ -50,6 +50,16 @@ import "../components/stats.js";
     // CHOOSE YOUR PLAN end
 
     // BLOG POSTS start
+    try {
+        const response = await fetch('./data/blog.json');
+        const data = await response.json();
+        const blogResponse = renderBlog('blog', data);
+        if (blogResponse[0]) {
+            console.error(blogResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     // BLOG POSTS end
 
     // BLUE ZONE LOGOS start
