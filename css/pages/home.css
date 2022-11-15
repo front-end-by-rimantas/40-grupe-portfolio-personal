@@ -20,9 +20,9 @@
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
 /* HEADER-start */
-header.container {
-    width: 85%;
-    display: flex;
+
+
+
     justify-content: space-between;
     align-items: center;
     padding: 25px;
