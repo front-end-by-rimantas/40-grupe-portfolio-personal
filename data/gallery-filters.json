@@ -1,0 +1,7 @@
+[
+    { "filter": "All" },
+    { "filter": "Vector" },
+    { "filter": "Raster" },
+    { "filter": "UI/UX" },
+    { "filter": "Printing" }
+]
