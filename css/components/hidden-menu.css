@@ -41,9 +41,9 @@
 .onemenu:nth-child(1) {
     color: var(--bluegradient1);
 }
-.scrollbar-position::-webkit-scrollbar {
+.scrollbar-scroll::-webkit-scrollbar {
     display: none;
 }
-.scrollbar-position {
-    position: fixed;
+.scrollbar-scroll {
+    position: static;
 }

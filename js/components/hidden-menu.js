@@ -11,14 +11,14 @@ function renderHiddenMenu(selector, data) {
     DOM.addEventListener('click', () => {
         if (DOM.innerHTML.includes("home")) {
             DOM.innerHTML = '';
-            bodyDOM[0].classList.remove('invisible-scrollbar');
+            bodyDOM[0].classList.remove('scrollbar-scroll');
         } else {
             let HTML = '<div class = "box"><div class = "menu-box">';
             for (const item of data) {
                 HTML += `<a class="link onemenu" href = "#">${item.title}</a>`
             }
             HTML += '</div></div>'
-            bodyDOM[0].classList.add('scrollbar-position');
+            bodyDOM[0].classList.add('scrollbar-scroll');
             DOM.innerHTML = HTML;
         }
     })
