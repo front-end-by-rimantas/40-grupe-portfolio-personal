@@ -1,0 +1,93 @@
+.price {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.buy:hover,
+.buy:hover .number-border,
+.buy:hover .number,
+.buy:hover .h3mar {
+    background-color: transparent;
+    color: white;
+}
+.buy {
+    padding: 20px;
+}
+.buy:hover {
+    background: linear-gradient(
+        var(--bluegradient1),
+        var(--bluegradient2),
+        var(--bluegradient3)
+    );
+    transform: scale(1.05);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.bbtn {
+    max-height: 72px;
+    overflow: hidden;
+}
+.hower2 {
+    display: none;
+    text-decoration: none;
+    font-size: medium;
+    background-color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.buy:hover > .bbtn > .hower2 {
+    display: block;
+}
+.buy:hover > .bbtn > .hower1 {
+    display: none;
+}
+
+.row.custom {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.row.custom .choose {
+    width: 25%;
+}
+
+@media (max-width: 992px) {
+    .row.custom {
+        width: 80%;
+    }
+    .row.custom .choose {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .row.custom {
+        width: 80%;
+        flex-direction: column;
+    }
+    .row.custom .choose {
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .row.custom {
+        width: 90%;
+        flex-direction: column;
+    }
+    .row.custom .choose {
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
