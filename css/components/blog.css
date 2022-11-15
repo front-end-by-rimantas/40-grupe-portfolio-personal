@@ -1,4 +1,5 @@
 .blog-container {
+    padding: 100px 0;
     background: var(--grey);
 }
 .blog-col {
@@ -21,12 +22,17 @@
     text-align: left;
     line-height: 1.3;
     padding-bottom: 20px;
+    transition: all 0.4s;
 }
 .blog-text > p {
     text-align: left;
 }
-.blog-img {
+.blog-img-holder {
+    overflow: hidden;
+}
+.blog-img-holder > img {
     width: 100%;
+    transition: all 0.4s;
 }
 .blog-img-info {
     display: flex;
@@ -38,6 +44,9 @@
     margin-bottom: 40px;
     border-bottom: 1px solid #eee;
 }
+.blog-img-info > p {
+    color: #777;
+}
 .blog-user > img {
     padding-right: 10px;
 }
@@ -46,4 +55,10 @@
     font-size: 14px;
     text-decoration: none;
     color: #777;
+}
+.blog-col:hover .blog-img {
+    transform: scale(1.2);
+}
+.blog-col:hover h4 {
+    color: var(--bluegradient1);
 }
