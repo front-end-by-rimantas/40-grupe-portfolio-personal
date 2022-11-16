@@ -5,7 +5,7 @@ import renderBlog from "../components/blog.js";
 import "../components/stats.js";
 import renderGallery from "../components/gallery.js";
 import renderGalleryFilters from "../components/gallery-filters.js";
-import renderBrands from "../components/brands.js";
+import "../components/brands.js";
 
 // EXECUTION
 (async () => {
@@ -87,16 +87,6 @@ import renderBrands from "../components/brands.js";
     // BLOG POSTS end
 
     // BLUE ZONE LOGOS start
-    try {
-        const response = await fetch('./data/brands.json');
-        const data = await response.json();
-        const brandsResponse = renderBrands('brands-block', data);
-        if (brandsResponse[0]) {
-            console.error(brandsResponse[1]);
-        }
-    } catch (error) {
-        console.log(error);
-    }
     // BLUE ZONE LOGOS end
 
     // FOOTER start

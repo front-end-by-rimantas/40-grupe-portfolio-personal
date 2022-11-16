@@ -173,23 +173,22 @@ header > .row > .visible-flex {
 /* BLOG POSTS end */
 
 /* BLUE ZONE LOGOS start  */
-.brandarea{
+.image-container {
     overflow-x: hidden;
+    padding: 30px 0;
 }
-.brandwrap {
+.image-wrapper {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% - (1.5rem * var(--per-view) -1)) / var(--per-view));
-    gap: 1.5rem;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap: 1.5rem;
     position: relative;
     left: 0;
     transition: .3s;
 }
-.brandholder {
+.brand {
     object-fit: contain;
     display: block;
-}
-.brand{
     opacity: 0.6;
 }
 .brand:hover {
