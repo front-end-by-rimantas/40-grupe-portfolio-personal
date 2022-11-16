@@ -11,10 +11,8 @@ function renderMenu(selector, data) {
 
     for (const item of data) {
         if (item.title === 'pages' || item.title === 'blog') {
-            console.log(item);
-            HTML += `<a class="link" id = "${item.title}1" href="#">${item.title}<i class="fa fa-angle-down"></i></a>`
+            HTML += `<a class="link" id = "${item.title}1" href="#">${item.title} ⮛</a>`
         } else {
-            console.log(item);
             HTML += `<a class="link" id = "${item.title}1" href="#">${item.title}</a>`
         }
     }
@@ -24,32 +22,29 @@ function renderMenu(selector, data) {
 
     const level2DOM = document.getElementById('blog1');
     level2DOM.addEventListener('mouseenter', () => {
-        let HTML2 = `<div class = "level2box">
+        level2DOM.innerHTML = `blog ⮛<div class = "level2box">
                         <div class = "level2innerbox">
                             <a class="link level2" href="#">blog home</a>
                             <a class="link level2" href="#">blog single</a>
                         </div>
                     </div>`
-        level2DOM.innerHTML += HTML2;
     })
     level2DOM.addEventListener('mouseleave', () => {
-        let HTML2 = 'blog<i class="fa fa-angle-down"></i>'
-        level2DOM.innerHTML = HTML2;
+        level2DOM.innerHTML = 'blog ⮛'
     })
+
 
     const level21DOM = document.getElementById('pages1');
     level21DOM.addEventListener('mouseenter', () => {
-        let HTML3 = `<div class = "level2box">
+        level21DOM.innerHTML = `pages ⮛<div class = "level2box">
                         <div class = "level2innerbox">
                             <a class="link level2" href="#">elements</a>
                             <a class="link level2" href="#">level 2</a>
                         </div>
                     </div>`
-        level21DOM.innerHTML += HTML3;
     })
     level21DOM.addEventListener('mouseleave', () => {
-        let HTML3 = 'pages<i class="fa fa-angle-down"></i>'
-        level21DOM.innerHTML = HTML3;
+        level21DOM.innerHTML = 'pages ⮛'
     })
 
 
