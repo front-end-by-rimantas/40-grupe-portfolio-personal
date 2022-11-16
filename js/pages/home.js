@@ -1,7 +1,11 @@
 // IMPORTS
 import renderServices from "../components/services.js";
 import renderMenu from "../components/menu.js";
+import renderBlog from "../components/blog.js";
 import "../components/stats.js";
+import renderGallery from "../components/gallery.js";
+import renderGalleryFilters from "../components/gallery-filters.js";
+import renderBrands from "../components/brands.js";
 
 // EXECUTION
 (async () => {
@@ -41,6 +45,26 @@ import "../components/stats.js";
     // BLUE ZONE STATISTICS end
 
     // FEATURED PROJECTS start
+    try {
+        const response = await fetch('./data/gallery.json');
+        const data = await response.json();
+        const galleryResponse = renderGallery('gallery-images', data);
+        if (galleryResponse[0]) {
+            console.error(galleryResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
+    try {
+        const response = await fetch('./data/gallery-filters.json');
+        const data = await response.json();
+        const galleryFiltersResponse = renderGalleryFilters('gallery-filters', data);
+        if (galleryFiltersResponse[0]) {
+            console.error(galleryFiltersResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     // FEATURED PROJECTS end
 
     // CLIENTS FEEDBACK start
@@ -50,9 +74,29 @@ import "../components/stats.js";
     // CHOOSE YOUR PLAN end
 
     // BLOG POSTS start
+    try {
+        const response = await fetch('./data/blog.json');
+        const data = await response.json();
+        const blogResponse = renderBlog('blog', data);
+        if (blogResponse[0]) {
+            console.error(blogResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     // BLOG POSTS end
 
     // BLUE ZONE LOGOS start
+    try {
+        const response = await fetch('./data/brands.json');
+        const data = await response.json();
+        const brandsResponse = renderBrands('brands-block', data);
+        if (brandsResponse[0]) {
+            console.error(brandsResponse[1]);
+        }
+    } catch (error) {
+        console.log(error);
+    }
     // BLUE ZONE LOGOS end
 
     // FOOTER start
