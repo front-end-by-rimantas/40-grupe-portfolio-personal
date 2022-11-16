@@ -25,9 +25,11 @@ function renderMenu(selector, data) {
     const level2DOM = document.getElementById('blog1');
     level2DOM.addEventListener('mouseenter', () => {
         let HTML2 = `<div class = "level2box">
-                         <a class="link level2" href="#">blog home</a>
-                          <a class="link level2" href="#">blog single</a>
-                      </div>`
+                        <div class = "level2innerbox">
+                            <a class="link level2" href="#">blog home</a>
+                            <a class="link level2" href="#">blog single</a>
+                        </div>
+                    </div>`
         level2DOM.innerHTML += HTML2;
     })
     level2DOM.addEventListener('mouseleave', () => {
@@ -38,9 +40,11 @@ function renderMenu(selector, data) {
     const level21DOM = document.getElementById('pages1');
     level21DOM.addEventListener('mouseenter', () => {
         let HTML3 = `<div class = "level2box">
-                         <a class="link level2" href="#">elements</a>
-                          <a class="link level2" href="#">level 2</a>
-                      </div>`
+                        <div class = "level2innerbox">
+                            <a class="link level2" href="#">elements</a>
+                            <a class="link level2" href="#">level 2</a>
+                        </div>
+                    </div>`
         level21DOM.innerHTML += HTML3;
     })
     level21DOM.addEventListener('mouseleave', () => {
