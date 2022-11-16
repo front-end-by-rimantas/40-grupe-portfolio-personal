@@ -6,7 +6,7 @@ import "../components/stats.js";
 import renderGallery from "../components/gallery.js";
 import renderGalleryFilters from "../components/gallery-filters.js";
 import renderBrands from "../components/brands.js";
-
+import "../components/headershadow.js";
 // EXECUTION
 (async () => {
     // HEADER start
