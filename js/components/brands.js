@@ -19,10 +19,10 @@ function renderBrands(selector, data) {
 
 export default renderBrands;
 
-// next script
+// next script______________________________________________________________
 
 const brandWrap = document.querySelector('.brandwrap');
-const brandLogos = document.querySelectorAll('.brandwrap > .brandholder');
+const brandLogos = document.querySelectorAll('.brandwrap > *');
 const brandLength = brandLogos.length;
 const perView = 5;
 let totalScroll = 0;
@@ -30,7 +30,7 @@ const delay = 3000;
 
 brandWrap.style.setProperty('--per-view', perView);
 for (let i = 0; i < perView; i++) {
-    brandWrap.insertAdjacentHTML('beforeend', brandLogos[i]);
+    brandWrap.insertAdjacentHTML('beforeend', brandLogos[i].outerHTML);
 }
 
 let autoScroll = setInterval(scrolling, delay);
