@@ -28,7 +28,7 @@ const perView = 5;
 let totalScroll = 0;
 const delay = 3000;
 
-brandWrap.style.setProperty('--per-view', perView)
+brandWrap.style.setProperty('--per-view', perView);
 for (let i = 0; i < perView; i++) {
     brandWrap.insertAdjacentHTML('beforeend', brandLogos[i]);
 }
