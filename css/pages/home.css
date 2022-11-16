@@ -47,7 +47,9 @@ header > .row > .visible-flex {
 .header-menu > .link:hover {
     color: var(--bluegradient1);
 }
-
+.container.header-container.shadow {
+    box-shadow: gray 0px 3px 40px 0.5px;
+}
 /* HEADER-end  */
 
 /* THIS IS ME start */
