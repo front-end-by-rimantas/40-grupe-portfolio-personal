@@ -22,9 +22,9 @@ export default renderBrands;
 // next script
 
 const brandWrap = document.querySelector('.brandwrap');
-const brandLogos = document.querySelectorAll('.brandwrap > .brand');
+const brandLogos = document.querySelectorAll('.brandwrap > .brandholder');
 const brandLength = brandLogos.length;
-const perView = 4;
+const perView = 5;
 let totalScroll = 0;
 const delay = 3000;
 
@@ -44,7 +44,7 @@ function scrolling() {
         brandWrap.style.left = '0';
         autoScroll = setInterval(scrolling, delay);
     }
-    const widthEl = document.querySelector('.brand').offsetWidth + 24;
+    const widthEl = document.querySelector('.brandholder').offsetWidth + 24;
     brandWrap.style.left = `-${totalScroll * widthEl}px`;
     brandWrap.style.transition = '.3s';
 }

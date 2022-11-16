@@ -175,7 +175,6 @@ header > .row > .visible-flex {
 /* BLUE ZONE LOGOS start  */
 .brandarea{
     overflow-x: hidden;
-    max-width: auto; 
 }
 .brandwrap {
     display: grid;
@@ -186,9 +185,11 @@ header > .row > .visible-flex {
     left: 0;
     transition: .3s;
 }
-.brand{
-    object-fit: cover;
+.brandholder {
+    object-fit: contain;
     display: block;
+}
+.brand{
     opacity: 0.6;
 }
 .brand:hover {
