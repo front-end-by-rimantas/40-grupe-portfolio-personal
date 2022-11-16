@@ -2,8 +2,8 @@
     width: 150px;
     height: 100px;
     position: absolute;
-    right: 12%;
-    top: 52%;
+    right: 0;
+    top: 100%;
     background-color: #fff;
     text-align: center;
     align-content: center;
@@ -24,4 +24,7 @@
 header i {
     margin-left: 7px;
     padding-top: 0.3em;
+}
+#blog1, #pages1 {
+    position: relative;
 }

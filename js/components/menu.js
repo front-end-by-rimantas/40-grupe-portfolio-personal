@@ -57,4 +57,3 @@ function renderMenu(selector, data) {
     return [false, 'OK'];
 }
 export default renderMenu;
-// /* <i class="fa fa-angle-down"></i> */
