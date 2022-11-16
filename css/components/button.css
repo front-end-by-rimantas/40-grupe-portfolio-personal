@@ -8,4 +8,9 @@
     padding: 1em 25px;
     line-height: 3em;
     text-decoration: none;
+    transition: 0.3s;
+}
+.button:hover {
+    box-shadow: 0px 10px 10px var(--bluegradient2);
+    transition: 0.3s;
 }
