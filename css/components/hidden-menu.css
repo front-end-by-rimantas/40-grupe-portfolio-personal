@@ -13,6 +13,19 @@
     background-color: #0F0F0F;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes slide {
+    0% {
+        left: -250px;
+    }
+    100% {
+        left: 0px;
+    }
 }
 .onemenu {
     margin-top: 28px;
@@ -28,6 +41,11 @@
 .onemenu:nth-child(1) {
     color: var(--bluegradient1);
 }
-.invisible-scrollbar::-webkit-scrollbar {
+.scrollbar-scroll::-webkit-scrollbar {
     display: none;
+}
+
+.scrollbar-scroll {
+   height: 100%;
+   overflow-y: hidden;
 }
