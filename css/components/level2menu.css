@@ -1,0 +1,30 @@
+.level2box {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff;
+    text-align: center;
+    align-content: center;
+}
+.level2innerbox {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px #E2E2E6, -10px 0px 10px #E2E2E6;
+}
+.level2 {
+    margin-right: 15px;
+}
+
+header i {
+    margin-left: 7px;
+    padding-top: 0.3em;
+}
+#blog1, #pages1 {
+    position: relative;
+}
