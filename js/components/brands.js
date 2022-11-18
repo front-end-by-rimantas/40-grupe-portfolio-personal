@@ -39,6 +39,16 @@ let perView = 5;
 //plotis();
 //x.addListener(plotis);
 
+//bandymai
+let plotis = window.innerWidth;
+
+window.addEventListener('resize', () => {
+    plotis = window.innerWidth;
+    return plotis;
+});
+console.log(plotis);
+
+//bandymai
 let totalScroll = 0;
 const delay = 3000;
 
